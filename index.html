@@ -1,0 +1,35 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My First App</title>
+</head>
+
+<body>
+
+    <h1>My First App</h1>
+
+    <h2>Do you like learning HTML?</h2>
+    
+<p id="answer"></p>
+
+
+
+    <button onclick="showYes()">Yes</button>
+
+    <button onclick="showNo()">No</button>
+
+      
+<script>
+function showYes() {
+    document.getElementById("answer").innerHTML = "Correct!";
+}
+
+function showNo() {
+    document.getElementById("answer").innerHTML = "Wrong!";
+}
+</script>
+
+
+</body>
+</html>
